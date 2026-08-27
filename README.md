@@ -122,6 +122,7 @@ brew install --cask px7digital/tap/px7-pdf-redact
 The Cask uses a versioned release asset and verifies its SHA-256 checksum before installation.
 
 - [Product page](https://pdf.px7.digital/redact/)
+- [Distribution and support repository](https://github.com/px7digital/px7-pdf-redact)
 - [PDF redaction guide](https://pdf.px7.digital/redact-pdf-mac/)
 - [Direct download](https://pdf.px7.digital/redact/PX7PDFRedact.dmg)
 - [Versioned Homebrew release asset](https://github.com/px7digital/homebrew-tap/releases/tag/px7-pdf-redact-1.0.2)
