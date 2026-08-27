@@ -24,6 +24,29 @@ The Cask uses a versioned release asset and verifies its SHA-256 checksum before
 - [Versioned Homebrew release asset](https://github.com/px7digital/homebrew-tap/releases/tag/px7-audio-recorder-1.0.3)
 - [Release manifest](https://audio.px7.digital/recorder/latest.json)
 
+## PX7 Video Recorder
+
+PX7 Video Recorder is a native recorder for macOS 14 and later. It captures a display, one
+window, or a selected region with Mac system audio, microphone, and an optional camera overlay.
+System sound and microphone remain separate tracks in the local recording. The app includes a
+seven-day trial and costs EUR 19 once.
+
+![PX7 Video Recorder showing a window preview and recording controls](https://video.px7.digital/recorder/recorder-interface.webp)
+
+Install the current notarized release:
+
+```sh
+brew install --cask px7digital/tap/px7-video-recorder
+```
+
+The Cask uses a versioned release asset and verifies its SHA-256 checksum before installation.
+
+- [Product page](https://video.px7.digital/recorder/)
+- [System-audio recording guide](https://video.px7.digital/record-screen-mac-system-audio/)
+- [Direct download](https://downloads.px7.digital/video/recorder/1.0.28/PX7VideoRecorder-1.0.28.dmg)
+- [Versioned Homebrew release asset](https://github.com/px7digital/homebrew-tap/releases/tag/px7-video-recorder-1.0.28)
+- [Release manifest](https://video.px7.digital/recorder/latest.json)
+
 ## PX7 Markdown Viewer
 
 PX7 Markdown Viewer is a free native Markdown viewer for macOS 14 and later. It renders local
