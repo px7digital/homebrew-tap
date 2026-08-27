@@ -7,6 +7,13 @@ cask "px7-markdown-viewer" do
   desc "Preview, open, and edit Markdown files locally"
   homepage "https://markdown.px7.digital/markdown-viewer/"
 
+  livecheck do
+    url "https://markdown.px7.digital/markdown-viewer/latest.json"
+    strategy :json do |json|
+      json["version"]
+    end
+  end
+
   depends_on macos: :sonoma
 
   app "PX7 Markdown Viewer.app"
