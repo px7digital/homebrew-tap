@@ -169,6 +169,7 @@ brew install --cask px7digital/tap/px7-image-sheet
 The Cask uses a versioned release asset and verifies its SHA-256 checksum before installation.
 
 - [Product page](https://image.px7.digital/sheet/)
+- [Distribution and support repository](https://github.com/px7digital/px7-image-sheet)
 - [Contact sheet guide](https://image.px7.digital/make-contact-sheet-mac/)
 - [Direct download](https://image.px7.digital/sheet/PX7ImageSheet.dmg)
 - [Versioned Homebrew release asset](https://github.com/px7digital/homebrew-tap/releases/tag/px7-image-sheet-1.0.3)
