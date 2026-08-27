@@ -2,6 +2,29 @@
 
 Homebrew Casks for signed and notarized PX7 Mac apps.
 
+## PX7 PDF OCR
+
+PX7 PDF OCR is a native app for macOS 14 and later. It adds an invisible searchable text layer
+behind scanned PDF pages while preserving their visible appearance. Review the recognized text,
+choose a language, process folders, and optionally export TXT or Markdown. Recognition runs with
+Apple Vision on the Mac. The app includes a seven-day trial and costs EUR 19 once.
+
+![PX7 PDF OCR showing recognized text from an image-only PDF](https://pdf.px7.digital/ocr/ocr-interface.webp)
+
+Install the current notarized Universal release:
+
+```sh
+brew install --cask px7digital/tap/px7-pdf-ocr
+```
+
+The Cask uses a versioned release asset and verifies its SHA-256 checksum before installation.
+
+- [Product page](https://pdf.px7.digital/ocr/)
+- [Searchable PDF guide](https://pdf.px7.digital/make-scanned-pdf-searchable-mac/)
+- [Direct download](https://pdf.px7.digital/ocr/PX7PDFOCR.dmg)
+- [Versioned Homebrew release asset](https://github.com/px7digital/homebrew-tap/releases/tag/px7-pdf-ocr-1.0.1)
+- [Release manifest](https://pdf.px7.digital/ocr/latest.json)
+
 ## PX7 PDF Redact
 
 PX7 PDF Redact is a native app for macOS 14 and later. Mark selectable text, images, or arbitrary
