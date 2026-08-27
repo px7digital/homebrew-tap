@@ -14,6 +14,29 @@ or [compare Markdown Quick Look options](https://markdown.px7.digital/quick-look
 Release downloads and support are available in the dedicated
 [PX7 Markdown Viewer repository](https://github.com/px7digital/px7-markdown-viewer).
 
+## PX7 Markdown Typeset
+
+PX7 Markdown Typeset is a native document exporter for macOS 14 and later. Open a local
+Markdown file, choose the Manuscript, Modern or Academic theme, then export a paginated PDF,
+self-contained HTML, email-ready rich text or compilable LaTeX. The app includes a seven-day
+trial and costs EUR 12 once.
+
+![PX7 Markdown Typeset previewing a local document with the Academic theme](https://raw.githubusercontent.com/px7digital/px7-markdown-typeset/main/assets/typeset-interface.jpg)
+
+Install the current notarized Universal release:
+
+```sh
+brew install --cask px7digital/tap/px7-markdown-typeset
+```
+
+The Cask uses a versioned release asset and verifies its SHA-256 checksum before installation.
+
+- [Product page](https://markdown.px7.digital/typeset/)
+- [Distribution and support repository](https://github.com/px7digital/px7-markdown-typeset)
+- [Direct download](https://markdown.px7.digital/typeset/PX7MarkdownTypeset.dmg)
+- [Versioned Homebrew release asset](https://github.com/px7digital/homebrew-tap/releases/tag/px7-markdown-typeset-1.3.13)
+- [Release manifest](https://markdown.px7.digital/typeset/latest.json)
+
 ## PX7 PDF Pages
 
 PX7 PDF Pages is a native app for macOS 14 and later. Combine PDFs and folders in one visual
