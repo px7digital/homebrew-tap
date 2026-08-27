@@ -2,6 +2,29 @@
 
 Homebrew Casks for signed and notarized PX7 Mac apps.
 
+## PX7 PDF Protect
+
+PX7 PDF Protect is a native app for macOS 14 and later. Apply one open password to a PDF,
+Finder selection, or folder, or create password-free copies of files whose current password you
+know. It verifies that the chosen password works, a wrong password fails, and page counts remain
+intact. The app includes a seven-day trial and costs EUR 15 once.
+
+![PX7 PDF Protect preparing a synthetic PDF with a strong password](https://pdf.px7.digital/protect/protect-interface.webp)
+
+Install the current notarized Universal release:
+
+```sh
+brew install --cask px7digital/tap/px7-pdf-protect
+```
+
+The Cask uses a versioned release asset and verifies its SHA-256 checksum before installation.
+
+- [Product page](https://pdf.px7.digital/protect/)
+- [PDF password guide](https://pdf.px7.digital/password-protect-pdf-mac/)
+- [Direct download](https://pdf.px7.digital/protect/PX7PDFProtect.dmg)
+- [Versioned Homebrew release asset](https://github.com/px7digital/homebrew-tap/releases/tag/px7-pdf-protect-1.0.1)
+- [Release manifest](https://pdf.px7.digital/protect/latest.json)
+
 ## PX7 PDF OCR
 
 PX7 PDF OCR is a native app for macOS 14 and later. It adds an invisible searchable text layer
