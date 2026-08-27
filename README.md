@@ -283,6 +283,8 @@ brew install --cask px7digital/tap/px7-markdown-find
 The Cask uses a versioned release asset and verifies its SHA-256 checksum before installation.
 
 - [Product page](https://markdown.px7.digital/find/)
+- [Distribution and support repository](https://github.com/px7digital/px7-markdown-find)
+- [Search Markdown files on Mac guide](https://markdown.px7.digital/find/search-markdown-files-mac/)
 - [Direct download](https://markdown.px7.digital/find/PX7MarkdownFind.dmg)
 - [Versioned Homebrew release asset](https://github.com/px7digital/homebrew-tap/releases/tag/px7-markdown-find-1.0.8)
 - [Release manifest](https://markdown.px7.digital/find/latest.json)
