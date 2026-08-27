@@ -2,6 +2,29 @@
 
 Homebrew Casks for signed and notarized PX7 Mac apps.
 
+## PX7 Image Compress
+
+PX7 Image Compress is a native app for macOS 14 and later. Set an exact maximum in KB or MB,
+then keep the highest image quality that fits. It handles one image or a folder locally, previews
+the actual result, and never overwrites the originals. The app includes a seven-day trial and
+costs EUR 12 once.
+
+![PX7 Image Compress previewing an image below a 1 MB limit](https://image.px7.digital/compress/compress-interface.webp)
+
+Install the current notarized Universal release:
+
+```sh
+brew install --cask px7digital/tap/px7-image-compress
+```
+
+The Cask uses a versioned release asset and verifies its SHA-256 checksum before installation.
+
+- [Product page](https://image.px7.digital/compress/)
+- [1 MB compression guide](https://image.px7.digital/compress-image-to-1mb-mac/)
+- [Direct download](https://image.px7.digital/compress/PX7ImageCompress.dmg)
+- [Versioned Homebrew release asset](https://github.com/px7digital/homebrew-tap/releases/tag/px7-image-compress-1.0.3)
+- [Release manifest](https://image.px7.digital/compress/latest.json)
+
 ## PX7 Audio Recorder
 
 PX7 Audio Recorder is a native recorder for macOS 14.2 and later. It records Mac system audio,
