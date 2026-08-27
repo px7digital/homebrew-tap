@@ -145,6 +145,7 @@ brew install --cask px7digital/tap/px7-image-compress
 The Cask uses a versioned release asset and verifies its SHA-256 checksum before installation.
 
 - [Product page](https://image.px7.digital/compress/)
+- [Distribution and support repository](https://github.com/px7digital/px7-image-compress)
 - [1 MB compression guide](https://image.px7.digital/compress-image-to-1mb-mac/)
 - [Direct download](https://image.px7.digital/compress/PX7ImageCompress.dmg)
 - [Versioned Homebrew release asset](https://github.com/px7digital/homebrew-tap/releases/tag/px7-image-compress-1.0.3)
