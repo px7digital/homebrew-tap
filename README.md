@@ -150,6 +150,28 @@ The Cask uses a versioned release asset and verifies its SHA-256 checksum before
 - [Versioned Homebrew release asset](https://github.com/px7digital/homebrew-tap/releases/tag/px7-image-compress-1.0.3)
 - [Release manifest](https://image.px7.digital/compress/latest.json)
 
+## PX7 Image Sheet
+
+PX7 Image Sheet is a native app for macOS 14 and later. Add images or a folder, arrange a
+captioned contact-sheet grid, preview every page, then export a multi-page PDF, PNG or JPEG.
+It keeps the originals untouched, includes a seven-day trial and costs EUR 10 once.
+
+![PX7 Image Sheet previewing an A4 contact sheet with filename captions](https://image.px7.digital/sheet/sheet-interface.webp)
+
+Install the current notarized Universal release:
+
+```sh
+brew install --cask px7digital/tap/px7-image-sheet
+```
+
+The Cask uses a versioned release asset and verifies its SHA-256 checksum before installation.
+
+- [Product page](https://image.px7.digital/sheet/)
+- [Contact sheet guide](https://image.px7.digital/make-contact-sheet-mac/)
+- [Direct download](https://image.px7.digital/sheet/PX7ImageSheet.dmg)
+- [Versioned Homebrew release asset](https://github.com/px7digital/homebrew-tap/releases/tag/px7-image-sheet-1.0.3)
+- [Release manifest](https://image.px7.digital/sheet/latest.json)
+
 ## PX7 Audio Recorder
 
 PX7 Audio Recorder is a native recorder for macOS 14.2 and later. It records Mac system audio,
