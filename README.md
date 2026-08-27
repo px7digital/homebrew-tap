@@ -2,6 +2,28 @@
 
 Homebrew Casks for signed and notarized PX7 Mac apps.
 
+## PX7 PDF Convert
+
+PX7 PDF Convert is a native app for macOS 14 and later. Export every PDF page as JPEG, PNG,
+or TIFF with chosen resolution and quality, combine images into PDFs, or convert Markdown and
+text without uploading source files. The app includes a seven-day trial and costs EUR 15 once.
+
+![PX7 PDF Convert set to export a PDF as JPEG at 144 dpi](https://pdf.px7.digital/convert/convert-interface.webp)
+
+Install the current notarized Universal release:
+
+```sh
+brew install --cask px7digital/tap/px7-pdf-convert
+```
+
+The Cask uses a versioned release asset and verifies its SHA-256 checksum before installation.
+
+- [Product page](https://pdf.px7.digital/convert/)
+- [PDF to JPG guide](https://pdf.px7.digital/convert-pdf-to-jpg-mac/)
+- [Direct download](https://pdf.px7.digital/convert/PX7PDFConvert.dmg)
+- [Versioned Homebrew release asset](https://github.com/px7digital/homebrew-tap/releases/tag/px7-pdf-convert-1.0.2)
+- [Release manifest](https://pdf.px7.digital/convert/latest.json)
+
 ## PX7 PDF Protect
 
 PX7 PDF Protect is a native app for macOS 14 and later. Apply one open password to a PDF,
