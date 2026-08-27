@@ -16,8 +16,9 @@ Install the current notarized release:
 brew install --cask px7digital/tap/px7-markdown-viewer
 ```
 
-The Cask uses a versioned download and verifies its SHA-256 checksum before installation.
+The Cask uses a versioned release asset and verifies its SHA-256 checksum before installation.
 
 - [Product page](https://markdown.px7.digital/markdown-viewer/)
 - [Direct download](https://markdown.px7.digital/markdown-viewer/PX7MarkdownViewer.dmg)
+- [Versioned Homebrew release asset](https://github.com/px7digital/homebrew-tap/releases/tag/px7-markdown-viewer-1.3.12)
 - [Release manifest](https://markdown.px7.digital/markdown-viewer/latest.json)

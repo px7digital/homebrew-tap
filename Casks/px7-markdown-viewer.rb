@@ -2,7 +2,7 @@ cask "px7-markdown-viewer" do
   version "1.3.12"
   sha256 "6800ef3c6dcde3abfbe81807fb651e4a0c518d2eab2927f6bd13ede84141ea89"
 
-  url "https://downloads.px7.digital/markdown/markdown-viewer/#{version}/PX7MarkdownViewer-#{version}.zip"
+  url "https://github.com/px7digital/homebrew-tap/releases/download/px7-markdown-viewer-#{version}/PX7MarkdownViewer-#{version}.zip"
   name "PX7 Markdown Viewer"
   desc "Preview, open, and edit Markdown files locally"
   homepage "https://markdown.px7.digital/markdown-viewer/"
