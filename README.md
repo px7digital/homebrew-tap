@@ -2,6 +2,16 @@
 
 Homebrew Casks for signed and notarized PX7 Mac apps.
 
+Need to open an `.md` file on a Mac as rendered Markdown? PX7 Markdown Viewer is free, works
+with local files, and also adds Finder Quick Look previews:
+
+```sh
+brew install --cask px7digital/tap/px7-markdown-viewer
+```
+
+[See three free ways to open an .md file on Mac](https://markdown.px7.digital/open-md-file-mac/),
+or [compare Markdown Quick Look options](https://markdown.px7.digital/quick-look-guide/).
+
 ## PX7 PDF Pages
 
 PX7 PDF Pages is a native app for macOS 14 and later. Combine PDFs and folders in one visual
@@ -200,6 +210,8 @@ brew install --cask px7digital/tap/px7-markdown-viewer
 The Cask uses a versioned release asset and verifies its SHA-256 checksum before installation.
 
 - [Product page](https://markdown.px7.digital/markdown-viewer/)
+- [How to open an .md file on Mac](https://markdown.px7.digital/open-md-file-mac/)
+- [Markdown Quick Look guide](https://markdown.px7.digital/quick-look-guide/)
 - [Direct download](https://markdown.px7.digital/markdown-viewer/PX7MarkdownViewer.dmg)
 - [Versioned Homebrew release asset](https://github.com/px7digital/homebrew-tap/releases/tag/px7-markdown-viewer-1.3.12)
 - [Release manifest](https://markdown.px7.digital/markdown-viewer/latest.json)
