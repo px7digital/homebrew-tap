@@ -22,3 +22,25 @@ The Cask uses a versioned release asset and verifies its SHA-256 checksum before
 - [Direct download](https://markdown.px7.digital/markdown-viewer/PX7MarkdownViewer.dmg)
 - [Versioned Homebrew release asset](https://github.com/px7digital/homebrew-tap/releases/tag/px7-markdown-viewer-1.3.12)
 - [Release manifest](https://markdown.px7.digital/markdown-viewer/latest.json)
+
+## PX7 Markdown Web Clipper
+
+PX7 Markdown Web Clipper is a native menu bar app for macOS 14 and later. It saves the current
+Safari article as a plain `.md` file, downloads its images beside it, and keeps the source URL in
+the file. Processing runs locally and needs no account. The app includes a seven-day trial and
+costs EUR 10 once.
+
+![A Safari article saved as Markdown with local images](https://markdown.px7.digital/web-clipper/workflow.webp)
+
+Install the current notarized release:
+
+```sh
+brew install --cask px7digital/tap/px7-markdown-web-clipper
+```
+
+The Cask uses a versioned release asset and verifies its SHA-256 checksum before installation.
+
+- [Product page](https://markdown.px7.digital/web-clipper/)
+- [Direct download](https://markdown.px7.digital/web-clipper/PX7MarkdownWebClipper.dmg)
+- [Versioned Homebrew release asset](https://github.com/px7digital/homebrew-tap/releases/tag/px7-markdown-web-clipper-1.0.10)
+- [Release manifest](https://markdown.px7.digital/web-clipper/latest.json)
