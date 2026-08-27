@@ -2,6 +2,28 @@
 
 Homebrew Casks for signed and notarized PX7 Mac apps.
 
+## PX7 Audio Recorder
+
+PX7 Audio Recorder is a native recorder for macOS 14.2 and later. It records Mac system audio,
+a microphone or both in one local file without BlackHole or another virtual audio driver. Choose
+WAV, AIFF, CAF or M4A, watch live stereo meters, and trim a finished take. The app includes a
+seven-day trial and costs EUR 19 once.
+
+![PX7 Audio Recorder showing its source choices and stereo meters](https://audio.px7.digital/recorder/recorder-interface.webp)
+
+Install the current notarized release:
+
+```sh
+brew install --cask px7digital/tap/px7-audio-recorder
+```
+
+The Cask uses a versioned release asset and verifies its SHA-256 checksum before installation.
+
+- [Product page](https://audio.px7.digital/recorder/)
+- [Direct download](https://audio.px7.digital/recorder/PX7AudioRecorder.dmg)
+- [Versioned Homebrew release asset](https://github.com/px7digital/homebrew-tap/releases/tag/px7-audio-recorder-1.0.3)
+- [Release manifest](https://audio.px7.digital/recorder/latest.json)
+
 ## PX7 Markdown Viewer
 
 PX7 Markdown Viewer is a free native Markdown viewer for macOS 14 and later. It renders local
