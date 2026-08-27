@@ -44,3 +44,24 @@ The Cask uses a versioned release asset and verifies its SHA-256 checksum before
 - [Direct download](https://markdown.px7.digital/web-clipper/PX7MarkdownWebClipper.dmg)
 - [Versioned Homebrew release asset](https://github.com/px7digital/homebrew-tap/releases/tag/px7-markdown-web-clipper-1.0.10)
 - [Release manifest](https://markdown.px7.digital/web-clipper/latest.json)
+
+## PX7 Markdown Find
+
+PX7 Markdown Find is a native search app for macOS 14 and later. Press Shift-Command-O from any
+app to search Markdown file names and contents across folders you choose. Results stay local and
+open in the default Markdown app. Find includes a seven-day trial and costs EUR 15 once.
+
+![PX7 Markdown Find showing a matching local file](https://markdown.px7.digital/find/find-interface.webp)
+
+Install the current notarized release:
+
+```sh
+brew install --cask px7digital/tap/px7-markdown-find
+```
+
+The Cask uses a versioned release asset and verifies its SHA-256 checksum before installation.
+
+- [Product page](https://markdown.px7.digital/find/)
+- [Direct download](https://markdown.px7.digital/find/PX7MarkdownFind.dmg)
+- [Versioned Homebrew release asset](https://github.com/px7digital/homebrew-tap/releases/tag/px7-markdown-find-1.0.8)
+- [Release manifest](https://markdown.px7.digital/find/latest.json)
