@@ -2,6 +2,29 @@
 
 Homebrew Casks for signed and notarized PX7 Mac apps.
 
+## PX7 PDF Redact
+
+PX7 PDF Redact is a native app for macOS 14 and later. Mark selectable text, images, or arbitrary
+areas, rebuild a flattened copy, and verify the result before sharing it. It can find repeated text,
+remove comments and metadata, and process several PDFs without changing the originals. The app
+includes a seven-day trial and costs EUR 19 once.
+
+![PX7 PDF Redact marking two matching text passages](https://pdf.px7.digital/redact/redact-interface.webp)
+
+Install the current notarized Universal release:
+
+```sh
+brew install --cask px7digital/tap/px7-pdf-redact
+```
+
+The Cask uses a versioned release asset and verifies its SHA-256 checksum before installation.
+
+- [Product page](https://pdf.px7.digital/redact/)
+- [PDF redaction guide](https://pdf.px7.digital/redact-pdf-mac/)
+- [Direct download](https://pdf.px7.digital/redact/PX7PDFRedact.dmg)
+- [Versioned Homebrew release asset](https://github.com/px7digital/homebrew-tap/releases/tag/px7-pdf-redact-1.0.2)
+- [Release manifest](https://pdf.px7.digital/redact/latest.json)
+
 ## PX7 Image Compress
 
 PX7 Image Compress is a native app for macOS 14 and later. Set an exact maximum in KB or MB,
