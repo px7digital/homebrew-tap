@@ -11,6 +11,8 @@ brew install --cask px7digital/tap/px7-markdown-viewer
 
 [See three free ways to open an .md file on Mac](https://markdown.px7.digital/open-md-file-mac/),
 or [compare Markdown Quick Look options](https://markdown.px7.digital/quick-look-guide/).
+Release downloads and support are available in the dedicated
+[PX7 Markdown Viewer repository](https://github.com/px7digital/px7-markdown-viewer).
 
 ## PX7 PDF Pages
 
