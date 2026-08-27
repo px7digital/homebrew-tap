@@ -2,6 +2,28 @@
 
 Homebrew Casks for signed and notarized PX7 Mac apps.
 
+## PX7 PDF Pages
+
+PX7 PDF Pages is a native app for macOS 14 and later. Combine PDFs and folders in one visual
+workspace, reorder or rotate pages, extract a selection, or split a document into fixed-size
+parts without changing the originals. The app includes a seven-day trial and costs EUR 12 once.
+
+![PX7 PDF Pages combining three pages from two synthetic source documents](https://pdf.px7.digital/pages/pages-interface.webp)
+
+Install the current notarized Universal release:
+
+```sh
+brew install --cask px7digital/tap/px7-pdf-pages
+```
+
+The Cask uses a versioned release asset and verifies its SHA-256 checksum before installation.
+
+- [Product page](https://pdf.px7.digital/pages/)
+- [Merge PDF guide](https://pdf.px7.digital/merge-pdf-mac/)
+- [Direct download](https://pdf.px7.digital/pages/PX7PDFPages.dmg)
+- [Versioned Homebrew release asset](https://github.com/px7digital/homebrew-tap/releases/tag/px7-pdf-pages-1.0.2)
+- [Release manifest](https://pdf.px7.digital/pages/latest.json)
+
 ## PX7 PDF Convert
 
 PX7 PDF Convert is a native app for macOS 14 and later. Export every PDF page as JPEG, PNG,
