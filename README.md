@@ -217,6 +217,7 @@ brew install --cask px7digital/tap/px7-video-recorder
 The Cask uses a versioned release asset and verifies its SHA-256 checksum before installation.
 
 - [Product page](https://video.px7.digital/recorder/)
+- [Distribution and support repository](https://github.com/px7digital/px7-video-recorder)
 - [System-audio recording guide](https://video.px7.digital/record-screen-mac-system-audio/)
 - [Direct download](https://downloads.px7.digital/video/recorder/1.0.28/PX7VideoRecorder-1.0.28.dmg)
 - [Versioned Homebrew release asset](https://github.com/px7digital/homebrew-tap/releases/tag/px7-video-recorder-1.0.28)
