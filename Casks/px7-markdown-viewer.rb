@@ -7,7 +7,7 @@ cask "px7-markdown-viewer" do
   desc "Preview, open, and edit Markdown files locally"
   homepage "https://markdown.px7.digital/markdown-viewer/"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "PX7 Markdown Viewer.app"
 
