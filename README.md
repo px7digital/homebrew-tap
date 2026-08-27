@@ -87,3 +87,25 @@ The Cask uses a versioned release asset and verifies its SHA-256 checksum before
 - [Direct download](https://markdown.px7.digital/find/PX7MarkdownFind.dmg)
 - [Versioned Homebrew release asset](https://github.com/px7digital/homebrew-tap/releases/tag/px7-markdown-find-1.0.8)
 - [Release manifest](https://markdown.px7.digital/find/latest.json)
+
+## PocketLauncher
+
+PocketLauncher turns an iPhone into a private control deck for a Mac. Launch apps and websites,
+run Apple Shortcuts, control media, and trigger system actions over the local network. It is free,
+requires no account, and supports Intel and Apple-silicon Macs running macOS 13 or later.
+
+![PocketLauncher showing pages and app tiles on a Mac](https://pocketlauncher.app/pocketlauncher-mac.webp)
+
+Install the current notarized release:
+
+```sh
+brew install --cask px7digital/tap/px7-pocketlauncher
+```
+
+The Cask uses a versioned release asset and verifies its SHA-256 checksum before installation.
+
+- [Product page](https://pocketlauncher.app/)
+- [Setup guide](https://pocketlauncher.app/old-iphone-stream-deck-mac/)
+- [Direct download](https://pocketlauncher.app/pocketlauncher/PocketLauncher.dmg)
+- [Versioned Homebrew release asset](https://github.com/px7digital/homebrew-tap/releases/tag/pocketlauncher-1.751)
+- [Release manifest](https://pocketlauncher.app/latest.json)
