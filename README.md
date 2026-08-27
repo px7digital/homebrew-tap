@@ -258,6 +258,8 @@ brew install --cask px7digital/tap/px7-markdown-web-clipper
 The Cask uses a versioned release asset and verifies its SHA-256 checksum before installation.
 
 - [Product page](https://markdown.px7.digital/web-clipper/)
+- [Distribution and support repository](https://github.com/px7digital/px7-markdown-web-clipper)
+- [Web page to Markdown guide](https://markdown.px7.digital/save-web-page-as-markdown/)
 - [Direct download](https://markdown.px7.digital/web-clipper/PX7MarkdownWebClipper.dmg)
 - [Versioned Homebrew release asset](https://github.com/px7digital/homebrew-tap/releases/tag/px7-markdown-web-clipper-1.0.10)
 - [Release manifest](https://markdown.px7.digital/web-clipper/latest.json)
