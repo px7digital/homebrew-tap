@@ -175,6 +175,28 @@ The Cask uses a versioned release asset and verifies its SHA-256 checksum before
 - [Versioned Homebrew release asset](https://github.com/px7digital/homebrew-tap/releases/tag/px7-image-sheet-1.0.3)
 - [Release manifest](https://image.px7.digital/sheet/latest.json)
 
+## PX7 Audio Edit
+
+PX7 Audio Edit is a native multitrack editor for macOS 14 and later. Arrange, trim, split,
+fade and mix local audio on a waveform timeline, then export WAV, AIFF, M4A or MP3. The app
+includes a seven-day trial and costs EUR 25 once.
+
+![PX7 Audio Edit showing voice-over and music on a multitrack timeline](https://audio.px7.digital/edit/editor-interface.webp)
+
+Install the current notarized Universal release:
+
+```sh
+brew install --cask px7digital/tap/px7-audio-edit
+```
+
+The Cask uses a versioned release asset and verifies its SHA-256 checksum before installation.
+
+- [Product page](https://audio.px7.digital/edit/)
+- [Distribution and support repository](https://github.com/px7digital/px7-audio-edit)
+- [Direct download](https://audio.px7.digital/edit/PX7AudioEdit.dmg)
+- [Versioned Homebrew release asset](https://github.com/px7digital/homebrew-tap/releases/tag/px7-audio-edit-1.1.3)
+- [Release manifest](https://audio.px7.digital/edit/latest.json)
+
 ## PX7 Audio Recorder
 
 PX7 Audio Recorder is a native recorder for macOS 14.2 and later. It records Mac system audio,
